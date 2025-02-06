@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFrame</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            height: 450px;
+            width: 95vw;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Navegação no iFrame</h1>
+    <p>Clique no link desejado para exibir o conteúdo &#x1F447</p>
+    <ul>
+        <li><a href="pags/pag001.html" target="frame">Página 01</a> &#x1F448</li> 
+        <li><a href="pags/pag002.html" target="frame">Página 02</a> &#x1F448</li>
+        <li><a href="pags/pag003.html" target="frame">Página 03</a> &#x1F448</li>
+    </ul>
+    <p>Cada link clicado irá ter o conteúdo aprentado nesta mesma página, dentro deste iframe &#x1F447</p>
+
+    <iframe src="pags/link.html" name="frame"></iframe>
+
+    <p><a href="iframe003.html">Recarregue a página aqui</a> &#x1F448</p>
+</body>
+</html>
